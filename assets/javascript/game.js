@@ -37,7 +37,7 @@ document.onkeyup = function(event) {
         console.log("Wins: " + wins + " Losses: " + losses + " GuessesLeft: " + guessesLeft + " Guesses so far: " + guessesSoFar + " Computer picked: " + letterToBeGuessed);
     }
 
-    var html = "<p><h1>The Psychic Game</h1></p>" + "<p>Guess what letter I'm thinking of</h4></p>" + "<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>" + "<p>Guesses Left: " + guessesLeft + "</p>" + "<p>Your guesses so far: " + guessesSoFar + "</p>"; 
+    var html = "<p><h1>The Psychic Game</h1></p>" + "<p>Guess what letter I'm thinking of?</h4></p>" + "<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>" + "<p>Guesses Left: " + guessesLeft + "</p>" + "<p>Your guesses so far: " + guessesSoFar + "</p>"; 
 
     document.querySelector("#Game").innerHTML = html;
 
